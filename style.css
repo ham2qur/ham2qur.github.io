@@ -170,6 +170,14 @@ body {
     font-size: 6rem;
     color: rgba(255, 255, 255, 0.7);
     border: 3px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 /* About Section */
@@ -261,7 +269,7 @@ body {
     color: #1f2937;
 }
 
-.github-activity > .container > p {
+.github-activity>.container>p {
     text-align: center;
     font-size: 1.1rem;
     color: #4b5563;
@@ -634,25 +642,25 @@ footer {
         grid-template-columns: 1fr;
     }
 
-        .contact-links {
+    .contact-links {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .hero-buttons {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .github-stats-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .github-links {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .contribution-graph {
         overflow-x: scroll;
         -webkit-overflow-scrolling: touch;
